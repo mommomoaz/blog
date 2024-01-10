@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+div{
+  box-sizing:border-box;
+}
+
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,15 +24,12 @@
   }
 }
 
-.black-nav{
-  display:flex;
-  background:black;
-  width:100%;
-  color:white;
-  padding-left:20px;
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -33,7 +41,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.black-nav{
+  display: flex;
+  background: #282c34;
+  width: 100%;
+  color: #eee;
+  padding-left: 20px;
+}
 .App-link {
   color: #61dafb;
 }
