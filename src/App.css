@@ -6,12 +6,21 @@ div{
   box-sizing:border-box;
 }
 
-.list{
-  padding-left: 20px;
-  text-align: left;
-  border-bottom: 1px solid grey;
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  text-align: center;
 }
 
+.list > div {
+  border-bottom: 1px solid grey;
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px 0;
+}
 
 .App-logo {
   height: 40vmin;
